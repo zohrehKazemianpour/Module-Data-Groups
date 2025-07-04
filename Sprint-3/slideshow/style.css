@@ -1,1 +1,34 @@
-/** Write your CSS in here **/
+body {
+    background-color: background-color: rgb(220, 230, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+
+}
+
+#carousel-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgb(250, 240, 235);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 40px;
+
+}
+.btn-control{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
